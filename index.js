@@ -3,8 +3,8 @@ let movieData = [];
 fetch("https://jsonplaceholder.typicode.com/photos?_start=0&_limit=100")
   .then((response) => response.text())
   .then((data) => {
-    const receivedData = JSON.parse(data);
-    movieData = receivedData;
+    movieData = JSON.parse(data);
+    movieData.sort((a, b) => a.title.localeCompare(b.title));
     showData();
 });
 

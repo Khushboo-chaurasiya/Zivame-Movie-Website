@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1{
+  transform: translateY(10rem);
+}
+
+header {
+  overflow: hidden;
+  background-color: rgb(49, 49, 73);
+  padding: 0.2rem 0.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  text-align: center;
+  padding-inline: 0.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+  color: rgb(231, 229, 229);
+  border-radius: 4px;
+}
+
+header h4 {
+  color: rgb(214, 226, 146);
+  padding-inline: 0.5rem;
+}
+
+main {
+  padding-inline: 0.5rem;
+}
+
+.header{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+input{
+  height: 2rem;
+  width: 15rem;
+}
+
+button{
+  transform: translate(-1rem, 0rem);
+  height: 2rem;
+  width: 2rem;
+}
+
+select{
+  height: 2rem;
+  width: 8rem;
+  margin-right: 1rem;
+}
+
+#card-holder {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+label {
+  width: 15rem;
+  overflow: hidden;
+  display: inline-block;
+  margin: 1rem;
+  margin-block: 0.5rem 0rem;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+label:hover{
+  transform: translate(5px);
+}
+
+p{
+  width: 18rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.card {
+  width: 18rem;
+  height: 21rem;
+  margin-block: 2rem;
+  border: .2rem solid black;
+}
+
+.card:hover{
+  border: .2rem solid brown;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+img {
+  margin: 0;
+  height: 15rem;
+  width: 17.6rem;
+}
